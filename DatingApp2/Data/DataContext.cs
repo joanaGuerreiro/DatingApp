@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DatingApp2.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,6 @@ namespace DatingApp2.Data
 
         }
         public DbSet<WeatherForecast> Values { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

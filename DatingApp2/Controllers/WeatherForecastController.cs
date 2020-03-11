@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DatingApp2.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace DatingApp2.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -24,6 +26,7 @@ namespace DatingApp2.Controllers
             var values = await _context.Values.ToListAsync();
             return Ok(values);
         }
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<ActionResult> GetValue(int id)
         {

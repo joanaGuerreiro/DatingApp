@@ -54,4 +54,12 @@ C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1
 C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\obj\Debug\netcoreapp3.1\DatingApp2.MvcApplicationPartsAssemblyInfo.cache
