@@ -62,4 +62,6 @@ C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1
 C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
 C:\Users\RedIT\Documents\DatingApp\DatingApp2\DatingApp2\obj\Debug\netcoreapp3.1\DatingApp2.MvcApplicationPartsAssemblyInfo.cache
