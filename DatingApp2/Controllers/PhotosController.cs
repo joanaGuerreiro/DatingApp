@@ -88,8 +88,8 @@ namespace DatingApp2.Controllers
             if(await _repo.SaveAll())
             {
                 var photoToReturn = _mapper.Map<PhotoForReturnDto>(photo);
-                var route = CreatedAtAction(nameof(GetPhoto),  new { id = photo.Id} ,photoToReturn);
-                return StatusCode(201, route); 
+                var route = CreatedAtAction(nameof(PhotosController.GetPhoto),  new { controller = "Photos", id = photo.Id} ,photoToReturn);
+                return StatusCode(201, photoToReturn); 
             }
 
             return BadRequest("Could add the photo");
