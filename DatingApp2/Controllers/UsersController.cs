@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using DatingApp2.Data;
 using DatingApp2.Dtos;
+using DatingApp2.Helpers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -11,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace DatingApp2.Controllers
 {
+    [ServiceFilter(typeof(LogUsersActivity))]
     [Authorize]
     [ApiController]
     [Route("[controller]")]
@@ -54,7 +56,7 @@ namespace DatingApp2.Controllers
                 return NoContent();
             }
 
-            throw new Exception($"Updting user {id} failed on save");
+            throw new Exception($"Updating user {id} failed on save");
         }
     }
 
