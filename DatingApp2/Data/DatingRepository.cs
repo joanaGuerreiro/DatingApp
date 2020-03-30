@@ -131,7 +131,7 @@ namespace DatingApp2.Data
             switch(messageParams.MessageContainer)
             {
                 case "Inbox":
-                    messages = messages.Where(u => u.RecipientId == messageParams.UserId && u.RecipientDeleted == false);
+                    messages = messages.Where(u => u.RecipientId == messageParams.UserId && u.RecipientDeleted == false && u.IsRead == true);
                     break;
                 case "Outbox":
                     messages = messages.Where(u => u.SenderId == messageParams.UserId && u.SenderDeleted == false);
